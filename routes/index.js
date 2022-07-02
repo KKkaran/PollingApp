@@ -2,7 +2,7 @@ const router = require("express").Router();
 
 //get route
 router.get("/", (req, res) => {
-    res.json({"creator": process.env.testVar})
+    res.json({"creator": "Karan Sodhi"})
 })
 
 router.get("/polling", (req, res) => {
